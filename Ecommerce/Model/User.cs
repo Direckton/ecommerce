@@ -9,12 +9,13 @@ public class User
     public string? Phone { get; set; } = null;
     public string Password { get; set; }
 
-    public User(int id, string name, string lastname, string email, string password)
+    public User(int id, string name, string lastname, string email, string? phone, string password)
     {
         this.Id = id;
         this.Name = name;
         this.Lastname = lastname;
         this.Email = email;
+        this.Phone = phone;
         this.Password = password;
     }
 }
