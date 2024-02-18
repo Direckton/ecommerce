@@ -10,11 +10,11 @@ namespace Ecommerce
 {
     class Program
     {
-        static void Main(string[] args)
+        
+        static async Task Main(string[] args)
         {
             Controler crl = new Controler();
-            
-            
+
 
         }
         
